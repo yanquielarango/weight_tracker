@@ -11,6 +11,12 @@ body {
 
 main {
 	padding: 1.5rem;
+  margin: 0 auto;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -36,7 +42,7 @@ h2 {
 	
 	text-align: center;
 	background-color: white;
-	border-radius: 999px;
+	border-radius: 100%;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 	border: 5px solid hwb(330 41% 0%);
 	
@@ -62,6 +68,7 @@ form {
 	border-radius: 0.5rem;
 	overflow: hidden;
 	transition: 200ms linear;
+
 }
 
 form:focus-within,
@@ -75,7 +82,7 @@ form input[type="number"] {
 	outline: none;
 	border: none;
 	background-color: white;
-
+  width: 10rem;
 	flex: 1 1 0%;
 	padding: 1rem 1.5rem;
 	font-size: 1.25rem;
@@ -87,9 +94,7 @@ form input[type="submit"] {
 	border: none;
 	cursor: pointer;
 	background-color: hotpink;
-
 	padding: 0.5rem 1rem;
-
 	color: white;
 	font-size: 1.25rem;
 	font-weight: 700;
@@ -105,7 +110,7 @@ form input[type="submit"]:hover {
 
 .canvas-box {
 	width: 100%;
-	max-width: 720px;
+	max-width: 800px;
 	background-color: white;
 	padding: 1rem;
 	border-radius: 0.5rem;
@@ -116,7 +121,9 @@ form input[type="submit"]:hover {
 .weight-history ul {
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: auto;
+  
+  
 }
 
 .weight-history ul li {
